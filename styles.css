@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+a, h1, h2, h3, h4 {
+  font-family: 'Mate SC';
+}
+
+body {
+  background-color: #f1f1f1;
+  position: relative;
+
+}
+/* 
+html {
+  position: relative;
+} */
+
+#band {
+  width: 100%;
+  background-color: rgb(238, 162, 49);
+  margin-bottom: 10em;
+}
+
+.see-when {
+  scale: 1.8;
+}
+
+.flame {
+  display: none;
+}
+
+.audioElement {
+ color: aqua;
+ margin-right: 5em;
+ display: none;
+}
+
+.w3-top {
+  z-index: 2;
+}
+
+.w3-bar { 
+  position: relative;
+  background-color: rgb(238, 162, 49);
+  opacity: 0.97;
+  /* z-index: 100; */
+}
+
+.enter {
+  position: relative;
+  top: -6.25em;
+}
+
+.enter-p {
+  position: relative;
+  top: -8em;
+}
+
+.emerge {
+  position: relative;
+  top: -5em;
+  scale: 1.9;
+  color: #f1f1f1;
+}
+
+.top-row img, .top-row .bandmate p {
+  position: relative;
+  top: 8em;
+  scale: 1.1;
+}
+
+.bottom-row img, .bottom-row .bandmate p {
+  position: relative;
+  top: -5em;
+  scale: 1.1;
+} 
+
+.bandmates {
+  position: relative;
+  top: -15em;
+}
+
+.bandmate p {
+  position: relative;
+  top: 12em;
+}
+
+.columbus {
+  display: block;
+  max-height: 30em;
+  margin-top: 5em;
+margin-left: auto;
+margin-right: auto;
+}
+
+.w3-content {
+  background-color: rgb(211, 196, 145);
+}
+
+.mySlides img, h3, p {
+  position: relative;
+  top: -14.05em;
+  animation: fadeIn ease 2.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: .35;}
+  100% {opacity: 1;}
+}
+
+.mySlides h3, p {
+  color:rgba(255, 255, 255, 0.781)
+}
+
+/* #nav {
+  position: absolute;
+  z-index: 2;
+} */
+
+.Shadowflame {
+
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.555);
+  font-size: 9em;
+  position: relative;
+  top: 1.7em;
+  z-index: 1;
+  letter-spacing: 20px;
+  font-family: 'Mate SC';
+}
+
+.past-show img {
+  height: 400px;
+}
+
+.past-show div {
+  max-height: 15em;
+}
+
+#btix-wspace1 button {
+  position: relative;
+  bottom: 1.5em; 
+}
+
+#btix-wspace2 button {
+  position: relative;
+  bottom: 3em; 
+}
+
+.fan {
+  position: relative;
+  top: -8em;
+  scale: 1.1;
+}
+
+footer {
+  margin-bottom: 2em;
+}
+
+.fa {
+margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .audioElement {
+    position: relative;
+    top: -3.35em;
+  }
+  .w3-bar {
+    max-height: 4em;
+    padding-top: .25em;
+  }
+
+  .Shadowflame {
+    letter-spacing: normal;
+    font-size: 5em;
+    top: 3em;
+  }
+
+  .mySlides img, h3, p {
+    top: -8em;
+  }
+
+  .mySlides {
+    max-height: 25em;
+  }
+  #band {
+    position: relative;
+    top: 10em;
+  }
+  #band h2 {
+    position: relative;
+    top: -7em;
+    font-style: italic;
+    font-size: 1.5em;
+  }
+
+  .emerge {
+    position: relative;
+    top: -2em;
+    scale: 1.5;
+  }
+  
+  #band p {
+    margin-top: 6em;
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+
+  #band {
+    background-color: rgba(100, 4, 4, 0.671);
+    padding-top: 10em;
+  }
+
+
+
+  .top-row .bandmate p, .top-row .bandmate img {
+    position: relative;
+    top: 13em;
+  }
+
+  .top-row .bandmate p {
+    position: relative;
+    top: 11.1em;
+  }
+
+
+  .bandmates {
+
+  }
+
+  .bottom-row .first-third {
+    display: none;
+  }
+
+  #btix-wspace1 button {
+    position: relative;
+    bottom: 3.5em; 
+  }
+  
+  #btix-wspace2 button {
+    position: relative;
+    bottom: 1.75em; 
+  }
+
+  #btix-wspace3 button {
+    position: relative;
+    bottom: 1.75em; 
+  }
+
+  #tour {
+    margin-top: 14em;
+  }
+
+  .past-show {
+    margin-top: 10em;
+  }
+
+  .past-show p {
+    font-size: 1.3em;
+  }
+  
+  .past-show img {
+    height: 630px;
+  }
+
+  footer {
+    margin-bottom: 7em;
+  }
+}
+
+@media (min-width: 600px) {
+  .Shadowflame {
+    scale: .5;
+    position: relative;
+    left: -.85em;
+    top: 1em;
+  }
+
+  .mySlides div h3 {
+    display: none;
+  }
+
+  #btix-wspace1 button {
+    position: relative;
+    bottom: 4.5em; 
+  }
+  
+  #btix-wspace2 button {
+    position: relative;
+    bottom: 6em; 
+  }
+
+  #btix-wspace3 button {
+    position: relative;
+    bottom: 1.5em; 
+  }
+
+  footer {
+    margin-bottom: 5em;
+  }
+}
+
+@media (min-width: 730px)  {
+
+  .mySlides div h3 {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 798px) {
+  .Shadowflame {
+    scale: .65;
+    position: relative;
+    left: 0;
+    top: 1em;
+  }
+
+  #btix-wspace3 button {
+    position: relative;
+    bottom: 3em; 
+  }
+
+}
+
+@media (min-width: 1020px) {
+  .Shadowflame {
+    scale: 1;
+    position: relative;
+    left: 0;
+    top: 1em;
+  }
+}
+
+
+
