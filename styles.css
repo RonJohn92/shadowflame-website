@@ -89,6 +89,10 @@ html {
   top: 12em;
 }
 
+.bandmate a {
+  text-decoration-color: #f1f1f1;
+}
+
 .columbus {
   display: block;
   max-height: 30em;
