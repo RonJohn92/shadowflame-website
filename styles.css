@@ -70,13 +70,13 @@ html {
 .top-row img, .top-row .bandmate p {
   position: relative;
   top: 8em;
-  scale: 1.1;
+  scale: 1.2;
 }
 
 .bottom-row img, .bottom-row .bandmate p {
   position: relative;
   top: -5em;
-  scale: 1.1;
+  scale: 1.2;
 } 
 
 .bandmates {
